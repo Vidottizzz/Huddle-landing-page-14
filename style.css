@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+:root {
+  /* ### Primary */
+
+  --violet: hsl(257, 40%, 49%);
+  --softMagenta: hsl(300, 69%, 71%);
+}
+header {
+  font-family: "Poppins", sans-serif;
+}
+main {
+  font-family: "Open Sans", sans-serif;
+}
+.card {
+  background-color: var(--violet);
+  width: 25.71rem;
+  height: 59rem;
+  padding: 2rem;
+  background-image: url(/images/bg-mobile.svg);
+
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.logo {
+    padding-top: 1rem;
+  width: 10rem;
+  padding-bottom: 4.35rem;
+  margin-left: 1.2rem;
+}
+.square {
+  width: 24rem;
+  margin-left: 1rem;
+  margin-bottom: 3rem;
+}
+main {
+  text-align: center;
+}
+main h1 {
+  color: white;
+  font-size: 1.85rem;
+  padding: 0rem 1.8rem 0.4rem 1.8rem;
+}
+main p {
+  font-size: 1.26rem;
+  color: white;
+  padding: 0rem 0.8rem 0.8rem 0.8rem;
+  line-height: 1.85rem;
+}
+main button {
+  padding: 0.8rem;
+  width: 60%;
+  border-radius: 2rem;
+  font-size: 0.95rem;
+  font-family: "Poppins", sans-serif;
+ margin-bottom: 5rem;
+}
+.hold-icon {
+    border: 1px solid rgba(194, 211, 255,0.55);
+    margin-left: 1rem;
+    padding: 0.22rem;
+    border-color: white;
+    border-radius: 100%;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .hold-icon:hover {
+    cursor: pointer;
+    background-color: rgba(194, 211, 255,0.55);
+  }
+  .social {
+    display: flex;
+    margin-left: 7.25rem;
+    margin-bottom: 2rem;
+  }
+  .social .hold-icon i {
+    position: relative;
+    top: 0.2rem;
+    font-size: 1.1rem;
+    color: white;
+  }
