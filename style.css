@@ -21,12 +21,11 @@ main {
   height: 59rem;
   padding: 2rem;
   background-image: url(/images/bg-mobile.svg);
-
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
 }
 .logo {
-    padding-top: 1rem;
+  padding-top: 1rem;
   width: 10rem;
   padding-bottom: 4.35rem;
   margin-left: 1.2rem;
@@ -56,10 +55,91 @@ main button {
   border-radius: 2rem;
   font-size: 0.95rem;
   font-family: "Poppins", sans-serif;
- margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 .hold-icon {
-    border: 1px solid rgba(194, 211, 255,0.55);
+  border: 1px solid rgba(194, 211, 255, 0.55);
+  margin-left: 1rem;
+  padding: 0.22rem;
+  border-color: white;
+  border-radius: 100%;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.hold-icon:hover {
+  cursor: pointer;
+  background-color: rgba(194, 211, 255, 0.55);
+}
+.social {
+  display: flex;
+  margin-left: 7.25rem;
+  margin-bottom: 2rem;
+}
+.social .hold-icon i {
+  position: relative;
+  top: 0.2rem;
+  font-size: 1.1rem;
+  color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:local;
+    background-position-y: -4rem;
+    background-position-x: -14rem
+    }
+
+  .logo {
+    padding-top: 1rem;
+    width: 10rem;
+    padding-bottom: 4.35rem;
+    margin-left: 1.2rem;
+  }
+  .square {
+    /* width: 50rem; */
+    width: 125%;
+    margin-left: 0.925rem;
+    margin-bottom: 3rem;
+    margin-top: 4.5rem;
+  }
+  main {
+  text-align: left;
+  }
+  main h1 {
+    color: white;
+    font-size: 1.85rem;
+    padding: 0rem 1.8rem 0.4rem 1.8rem;
+    padding-left: 14rem;
+    
+  }
+  main p {
+    font-size: 1.26rem;
+    color: white;
+    padding: 0rem 0.8rem 0.8rem 0.8rem;
+    line-height: 1.85rem;
+    padding-left: 14rem;
+  }
+  main button {
+    padding: 0.8rem;
+    width: 60%;
+    border-radius: 2rem;
+    font-size: 0.95rem;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 5rem;
+    margin-left: 14rem;
+  }
+  .social {
+    margin-left: 62rem;
+  }
+  .hold-icon {
+    border: 1px solid rgba(194, 211, 255, 0.55);
     margin-left: 1rem;
     padding: 0.22rem;
     border-color: white;
@@ -67,18 +147,11 @@ main button {
     width: 1.8rem;
     height: 1.8rem;
   }
-  .hold-icon:hover {
-    cursor: pointer;
-    background-color: rgba(194, 211, 255,0.55);
+  .hold-icon i {
+    padding-left: 0.35rem;
   }
-  .social {
-    display: flex;
-    margin-left: 7.25rem;
-    margin-bottom: 2rem;
+  main .hold-icon .fa-facebook-f{
+    padding-left: 0.55rem;
+
   }
-  .social .hold-icon i {
-    position: relative;
-    top: 0.2rem;
-    font-size: 1.1rem;
-    color: white;
-  }
+}
